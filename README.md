@@ -6,7 +6,9 @@ CVE: Pending Assignment
 Status: Reported to vendor
 Date Discovered: November 2025
 Impact: Full administrative access via MFA bypass
-Tested Firmware Version: Unknown (latest as of Nov 2025)
+Firmware: V2.800.00IB00C.0.T
+Build Date: 2022-08-17
+
 
 🛡️ Summary
 
