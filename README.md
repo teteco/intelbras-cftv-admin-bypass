@@ -22,29 +22,8 @@ Vulnerability class: Improper Access Control (CWE-284)
 
 Attack vector: Web-based response manipulation (interception/proxy)
 
-Steps to reproduce:
 
-Go to the login page and click on Forgot Password.
-
-Submit any user email or phone number (targeting the admin account).
-
-Intercept the HTTP POST response after submitting the MFA code.
-
-Modify the server response from:
-
-{"result":false,"error":"internal error","id":6}
-
-
-to:
-
-{"result":true,"id":6}
-
-
-Submit the form. The password will be updated even without a valid code.
-
-Use the new password to log in as admin.
-
-🎯 Impact
+Impact
 
 This vulnerability allows unauthenticated attackers to:
 
