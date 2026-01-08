@@ -2,7 +2,7 @@ Intelbras NVD 9032 R Ftd – Critical Password Reset Vulnerability
 
 Discovered by: Theo Cia
 
-CVE: Pending Assignment
+CVE: CVE-2025-67070
 Status: Reported to vendor
 Date Discovered: November 2025
 Impact: Full administrative access via MFA bypass
